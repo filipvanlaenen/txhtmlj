@@ -49,3 +49,33 @@ following Java code:
   body.addElement(new P("Hello, world!");
   System.out.println(html.asString());
 ```
+
+## Getting Started
+
+First of all, you need to obtain a copy of the source code, complile it and
+install it locally. Run the following commands to do this:
+
+```
+git clone git@github.com:filipvanlaenen/txhtmlj.git
+cd txhtmlj
+mvn clean install
+```
+
+*Note: If requested by enough people, this library can be deployed to a central
+Maven repository ([Issue #1](https://github.com/filipvanlaenen/txhtmlj/issues/1)).*
+
+If everything works well, you'll be able to use the TXHTMLJ library in another
+Java project by adding the following dependency in the project's POM file:
+
+```xml
+  <dependency>
+    <groupId>net.filipvanlaenen</groupId>
+    <artifactId>txhtmlj</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </dependency>
+```
+
+Be sure to update to the appropriate version number.
+
+Once the dependency is included, you can start to create XHTML documents as
+shown in the example above.
