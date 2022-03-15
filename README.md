@@ -89,6 +89,7 @@ attributes will be implemented as
 projects.
 
 * Document metadata
+  * [head](https://html.spec.whatwg.org/multipage/semantics.html#the-head-element)
   * [title](https://html.spec.whatwg.org/multipage/semantics.html#the-title-element)
 * Sections
   * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
