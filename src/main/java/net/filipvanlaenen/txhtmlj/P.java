@@ -9,8 +9,14 @@ import net.filipvanlaenen.bltxmlepj.ElementWithContent;
  *      "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element">4.4.1
  *      The p element</a>
  */
-public class P extends ElementWithContent implements XhtmlElement {
-    public P(String content) {
+public final class P extends ElementWithContent implements XhtmlElement {
+    /**
+     * Constructs a p element with a string as its content.
+     *
+     * @param content
+     *            A string.
+     */
+    public P(final String content) {
         super(content);
     }
 
