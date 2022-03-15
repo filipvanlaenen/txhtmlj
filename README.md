@@ -79,3 +79,14 @@ Be sure to update to the appropriate version number.
 
 Once the dependency is included, you can start to create XHTML documents as
 shown in the example above.
+
+## Elements Implemented
+
+Not all XHTML elements and concepts have been implemented yet. Below is a list
+with the elements that have been (partially) implemented. More elements and
+attributes will be implemented as
+[requested](https://github.com/filipvanlaenen/txhtmlj/issues) or needed by other
+projects.
+
+* The document element
+  * [html](https://html.spec.whatwg.org/multipage/semantics.html#the-html-element)
