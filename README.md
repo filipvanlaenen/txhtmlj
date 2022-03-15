@@ -88,5 +88,5 @@ attributes will be implemented as
 [requested](https://github.com/filipvanlaenen/txhtmlj/issues) or needed by other
 projects.
 
-* The document element
-  * [html](https://html.spec.whatwg.org/multipage/semantics.html#the-html-element)
+* Grouping content
+  * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
