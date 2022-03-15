@@ -1,5 +1,7 @@
 package net.filipvanlaenen.txhtmlj;
 
+import net.filipvanlaenen.bltxmlepj.ElementWithContent;
+
 /**
  * A class representing a paragraph.
  *
@@ -7,18 +9,13 @@ package net.filipvanlaenen.txhtmlj;
  *      "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element">4.4.1
  *      The p element</a>
  */
-public class P implements XhtmlElement {
-    /**
-     * The content.
-     */
-    private final String content;
-
+public class P extends ElementWithContent implements XhtmlElement {
     public P(String content) {
-        this.content = content;
+        super(content);
     }
 
     @Override
-    public String asString(String indent) {
-        return indent + "<p>" + content + "</p>";
+    protected String getElementName() {
+        return "p";
     }
 }
