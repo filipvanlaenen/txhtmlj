@@ -43,10 +43,10 @@ following Java code:
   Html html = new Html();
   Head head = new Head();
   html.addElement(head);
-  head.addElement(new Title("Hello, world!");
+  head.addElement(new Title("Hello, world!"));
   Body body = new Body();
   html.addElement(body);
-  body.addElement(new P("Hello, world!");
+  body.addElement(new P("Hello, world!"));
   System.out.println(html.asString());
 ```
 
@@ -88,6 +88,8 @@ attributes will be implemented as
 [requested](https://github.com/filipvanlaenen/txhtmlj/issues) or needed by other
 projects.
 
+* Document element
+  * [html](https://html.spec.whatwg.org/multipage/semantics.html#the-html-element)
 * Document metadata
   * [head](https://html.spec.whatwg.org/multipage/semantics.html#the-head-element)
   * [title](https://html.spec.whatwg.org/multipage/semantics.html#the-title-element)
