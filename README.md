@@ -90,5 +90,7 @@ projects.
 
 * Document metadata
   * [title](https://html.spec.whatwg.org/multipage/semantics.html#the-title-element)
+* Sections
+  * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
 * Grouping content
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)

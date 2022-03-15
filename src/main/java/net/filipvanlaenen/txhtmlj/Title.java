@@ -18,7 +18,7 @@ public final class Title extends ElementWithContent implements XhtmlElement {
     }
 
     @Override
-    protected String getElementName() {
+    public String getElementName() {
         return "title";
     }
 }

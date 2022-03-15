@@ -9,7 +9,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithContent;
  *      "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element">4.4.1
  *      The p element</a>
  */
-public final class P extends ElementWithContent implements XhtmlElement {
+public final class P extends ElementWithContent implements FlowContent {
     /**
      * Constructs a p element with a string as its content.
      *
@@ -21,7 +21,7 @@ public final class P extends ElementWithContent implements XhtmlElement {
     }
 
     @Override
-    protected String getElementName() {
+    public String getElementName() {
         return "p";
     }
 }
