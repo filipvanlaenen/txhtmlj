@@ -3,7 +3,9 @@ package net.filipvanlaenen.txhtmlj;
 /**
  * A class representing an HTML document.
  *
- * @see <a href= "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element">4.1.1 The html element</a>
+ * @see <a href=
+ *      "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element">4.1.1
+ *      The html element</a>
  */
 public final class Html implements XhtmlElement {
     /**
@@ -18,29 +20,28 @@ public final class Html implements XhtmlElement {
     /**
      * Adds a body.
      *
-     * @param theBody The body.
-     * @return The instance called.
+     * @param theBody
+     *            The body.
      */
-    public Html addElement(final Body theBody) {
+    public void addElement(final Body theBody) {
         this.body = theBody;
-        return this;
     }
 
     /**
      * Adds a head.
      *
-     * @param theHead The head.
-     * @return The instance called.
+     * @param theHead
+     *            The head.
      */
-    public Html addElement(final Head theHead) {
+    public void addElement(final Head theHead) {
         this.head = theHead;
-        return this;
     }
 
     /**
      * Returns a string representation of the HTML document.
      *
-     * @param indent The indentation.
+     * @param indent
+     *            The indentation.
      * @return A string representation of the SVG document.
      */
     public String asString(final String indent) {

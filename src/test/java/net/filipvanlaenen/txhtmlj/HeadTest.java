@@ -13,7 +13,8 @@ public class HeadTest {
      */
     @Test
     void headWithTitleWithTextIsConvertedCorrectlyToString() {
-        Head head = new Head().addElement(new Title("Hello, world!"));
+        Head head = new Head();
+        head.addElement(new Title("Hello, world!"));
         assertEquals("<head>\n  <title>Hello, world!</title>\n</head>", head.asString());
     }
 }

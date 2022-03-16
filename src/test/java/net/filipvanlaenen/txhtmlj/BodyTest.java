@@ -13,7 +13,8 @@ public class BodyTest {
      */
     @Test
     void bodyWithPWithTextIsConvertedCorrectlyToString() {
-        Body body = new Body().addElement(new P("Hello, world!"));
+        Body body = new Body();
+        body.addElement(new P("Hello, world!"));
         assertEquals("<body>\n  <p>Hello, world!</p>\n</body>", body.asString());
     }
 }
