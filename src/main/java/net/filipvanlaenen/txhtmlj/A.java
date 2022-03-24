@@ -2,7 +2,7 @@ package net.filipvanlaenen.txhtmlj;
 
 import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
 
-public class A extends ElementWithAttributesAndContent implements FlowContent {
+public final class A extends ElementWithAttributesAndContent implements FlowContent {
     /**
      * Constructs an a element with a string as its content.
      *
@@ -18,8 +18,15 @@ public class A extends ElementWithAttributesAndContent implements FlowContent {
         return "a";
     }
 
-    public A href(String string) {
-        addStringAttribute("href", string);
+    /**
+     * Sets the hyperreference.
+     *
+     * @param href
+     *            The hyperreference.
+     * @return The instance called.
+     */
+    public A href(final String href) {
+        addStringAttribute("href", href);
         return this;
     }
 }
