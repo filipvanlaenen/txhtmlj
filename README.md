@@ -92,6 +92,7 @@ projects.
   * [html](https://html.spec.whatwg.org/multipage/semantics.html#the-html-element)
 * Document metadata
   * [head](https://html.spec.whatwg.org/multipage/semantics.html#the-head-element)
+  * [style](https://html.spec.whatwg.org/multipage/semantics.html#the-style-element)
   * [title](https://html.spec.whatwg.org/multipage/semantics.html#the-title-element)
 * Sections
   * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
