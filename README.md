@@ -96,4 +96,5 @@ projects.
 * Sections
   * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
 * Grouping content
+  * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
