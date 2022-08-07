@@ -1,21 +1,21 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
 
 /**
  * A class representing a div element.
  *
- * @see <a href= "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element">4.4.15 The div
+ * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element">4.4.15 The div
  *      element</a>
  */
-public final class Div extends ElementWithAttributesAndContent implements FlowContent {
+public final class Div extends ElementWithAttributesAndMixedContent implements FlowContent {
     /**
-     * Constructs an a element with a string as its content.
+     * Adds flow content to the list of elements.
      *
-     * @param content A string.
+     * @param flowContent The flow content to be added.
      */
-    public Div(final String content) {
-        super(content);
+    public void addElement(final FlowContent flowContent) {
+        super.addElement(flowContent);
     }
 
     @Override
