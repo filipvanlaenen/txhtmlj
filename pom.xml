@@ -75,6 +75,11 @@
       <groupId>net.filipvanlaenen</groupId>
       <artifactId>bltxmlepj</artifactId>
       <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.filipvanlaenen</groupId>
+      <artifactId>tsvgj</artifactId>
+      <version>1.0-SNAPSHOT</version>
     </dependency>    
     <dependency>
       <groupId>org.junit.jupiter</groupId>
