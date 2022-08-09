@@ -9,12 +9,17 @@ import org.junit.jupiter.api.Test;
  */
 public class SvgTest {
     /**
+     * The magic number three.
+     */
+    private static final int THREE = 3;
+
+    /**
      * Test verifying that a simple svg fragment is exported correctly.
      */
     @Test
     void simpleSvgFragmentIsConvertedCorrectlyToString() {
         Svg svg = new Svg();
-        svg.getSvg().viewBox(0, 1, 2, 3);
+        svg.getSvg().viewBox(0, 1, 2, THREE);
         assertEquals("<svg viewBox=\"0 1 2 3\"/>", svg.asString());
     }
 

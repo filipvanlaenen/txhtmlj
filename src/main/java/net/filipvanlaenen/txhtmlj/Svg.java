@@ -1,9 +1,12 @@
 package net.filipvanlaenen.txhtmlj;
 
 /**
- * A class representing an svg element in a XHTML document.
+ * A class representing an svg element in a XHTML document. It wraps around an svg element from TSVGJ.
  */
 public final class Svg implements FlowContent {
+    /**
+     * The wrapped svg element from TSVGJ.
+     */
     private final net.filipvanlaenen.tsvgj.Svg svg;
 
     /**
@@ -14,7 +17,7 @@ public final class Svg implements FlowContent {
     }
 
     @Override
-    public String asString(String indent) {
+    public String asString(final String indent) {
         return svg.asString(indent);
     }
 
@@ -22,7 +25,12 @@ public final class Svg implements FlowContent {
     public String getElementName() {
         return "svg";
     }
-    
+
+    /**
+     * Returns the wrapped svg element from TSVGJ.
+     *
+     * @return The wrapped svg element from TSVGJ.
+     */
     public net.filipvanlaenen.tsvgj.Svg getSvg() {
         return svg;
     }
