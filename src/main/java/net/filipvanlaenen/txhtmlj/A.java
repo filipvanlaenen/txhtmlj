@@ -5,8 +5,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
 /**
  * A class representing an a element.
  *
- * @see <a href= "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element">4.5.1 The a
- *      element</a>
+ * @see <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element">4.5.1 The a element</a>
  */
 public final class A extends ElementWithAttributesAndContent implements FlowContent {
     /**

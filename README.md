@@ -101,3 +101,5 @@ projects.
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
 * Text-level semantics
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
+* Embedded content
+  * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
