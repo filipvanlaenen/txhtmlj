@@ -97,6 +97,12 @@ projects.
 * Sections
   * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
   * [footer](https://html.spec.whatwg.org/multipage/sections.html#the-footer-element)
+  * [h1](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+  * [h2](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+  * [h3](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+  * [h4](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+  * [h5](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+  * [h6](https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
   * [header](https://html.spec.whatwg.org/multipage/sections.html#the-header-element)
   * [section](https://html.spec.whatwg.org/multipage/sections.html#the-section-element)
 * Grouping content
