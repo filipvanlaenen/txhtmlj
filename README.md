@@ -98,6 +98,7 @@ projects.
   * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
   * [footer](https://html.spec.whatwg.org/multipage/sections.html#the-footer-element)
   * [header](https://html.spec.whatwg.org/multipage/sections.html#the-header-element)
+  * [section](https://html.spec.whatwg.org/multipage/sections.html#the-section-element)
 * Grouping content
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
