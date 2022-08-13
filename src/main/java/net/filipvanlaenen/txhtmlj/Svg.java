@@ -2,7 +2,7 @@ package net.filipvanlaenen.txhtmlj;
 
 /**
  * A class representing an svg element in a XHTML document. It wraps around an svg element from TSVGJ.
- * 
+ *
  * @see <a href="https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0">4.8.16 SVG</a>
  */
 public final class Svg implements FlowContent {

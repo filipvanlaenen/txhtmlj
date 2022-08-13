@@ -96,6 +96,7 @@ projects.
   * [title](https://html.spec.whatwg.org/multipage/semantics.html#the-title-element)
 * Sections
   * [body](https://html.spec.whatwg.org/multipage/sections.html#the-body-element)
+  * [header](https://html.spec.whatwg.org/multipage/sections.html#the-header-element)
 * Grouping content
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
@@ -103,3 +104,8 @@ projects.
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
 * Embedded content
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
+
+## Projects Using TXHTMLJ
+
+The following projects use TXHTMLJ:
+* [ASAPOP](https://github.com/filipvanlaenen/asapop)
