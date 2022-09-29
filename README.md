@@ -112,6 +112,8 @@ projects.
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
 * Embedded content
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
+* Scripting
+  * [script](https://html.spec.whatwg.org/multipage/scripting.html#the-script-element)
 
 ## Projects Using TXHTMLJ
 
