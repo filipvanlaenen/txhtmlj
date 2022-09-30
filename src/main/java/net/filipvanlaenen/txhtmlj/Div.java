@@ -10,6 +10,22 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
  */
 public final class Div extends ElementWithAttributesAndMixedContent implements FlowContent {
     /**
+     * Default constructor.
+     */
+    public Div() {
+        super();
+    }
+
+    /**
+     * Constructs an a element with a string as its content.
+     *
+     * @param content A string.
+     */
+    public Div(final String content) {
+        super(content);
+    }
+
+    /**
      * Adds flow content to the list of elements.
      *
      * @param flowContent The flow content to be added.
