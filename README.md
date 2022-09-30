@@ -115,6 +115,7 @@ projects.
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
 * Forms
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
+  * [select](https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element)
 * Scripting
   * [script](https://html.spec.whatwg.org/multipage/scripting.html#the-script-element)
 
