@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
 
 /**
  * A class representing a header element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/sections.html#the-header-element">4.3.8 The header element</a>
  */
-public final class Header extends ElementWithElements implements FlowContent {
+public final class Header extends ElementWithAttributesAndMixedContent implements FlowContent {
     /**
      * Adds flow content to the list of elements.
      *
