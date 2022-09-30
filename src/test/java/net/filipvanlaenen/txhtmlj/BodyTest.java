@@ -17,4 +17,14 @@ public class BodyTest {
         body.addElement(new P("Hello, world!"));
         assertEquals("<body>\n  <p>Hello, world!</p>\n</body>", body.asString());
     }
+
+    /**
+     * Test verifying that a body with a simple paragraph with text and an onload event is exported correctly.
+     */
+    @Test
+    void bodyWithPWithTextAndOnloadEventIsConvertedCorrectlyToString() {
+        Body body = new Body().onload("foo();");
+        body.addElement(new P("Hello, world!"));
+        assertEquals("<body onload=\"foo();\">\n  <p>Hello, world!</p>\n</body>", body.asString());
+    }
 }
