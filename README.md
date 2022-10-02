@@ -114,6 +114,7 @@ projects.
 * Embedded content
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
 * Tabular data
+  * [table](https://html.spec.whatwg.org/multipage/tables.html#the-table-element)
   * [td](https://html.spec.whatwg.org/multipage/tables.html#the-td-element)
 * Forms
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
