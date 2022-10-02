@@ -115,6 +115,7 @@ projects.
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
 * Tabular data
   * [table](https://html.spec.whatwg.org/multipage/tables.html#the-table-element)
+  * [tbody](https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element)
   * [td](https://html.spec.whatwg.org/multipage/tables.html#the-td-element)
   * [th](https://html.spec.whatwg.org/multipage/tables.html#the-th-element)
   * [tr](https://html.spec.whatwg.org/multipage/tables.html#the-tr-element)
