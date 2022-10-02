@@ -113,6 +113,8 @@ projects.
   * [span](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element)
 * Embedded content
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
+* Tabular data
+  * [td](https://html.spec.whatwg.org/multipage/tables.html#the-td-element)
 * Forms
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
   * [select](https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element)
