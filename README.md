@@ -118,6 +118,7 @@ projects.
   * [tbody](https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element)
   * [td](https://html.spec.whatwg.org/multipage/tables.html#the-td-element)
   * [th](https://html.spec.whatwg.org/multipage/tables.html#the-th-element)
+  * [thead](https://html.spec.whatwg.org/multipage/tables.html#the-thead-element)
   * [tr](https://html.spec.whatwg.org/multipage/tables.html#the-tr-element)
 * Forms
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
