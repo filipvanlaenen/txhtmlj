@@ -116,6 +116,7 @@ projects.
 * Tabular data
   * [table](https://html.spec.whatwg.org/multipage/tables.html#the-table-element)
   * [td](https://html.spec.whatwg.org/multipage/tables.html#the-td-element)
+  * [tr](https://html.spec.whatwg.org/multipage/tables.html#the-tr-element)
 * Forms
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
   * [select](https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element)
