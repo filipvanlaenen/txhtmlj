@@ -23,6 +23,17 @@ public final class A extends ElementWithAttributesAndContent implements FlowCont
     }
 
     /**
+     * Sets the class.
+     *
+     * @param clazz The class.
+     * @return The instance called.
+     */
+    public A clazz(final String clazz) {
+        addStringAttribute("class", clazz);
+        return this;
+    }
+
+    /**
      * Sets the hyperreference.
      *
      * @param href The hyperreference.

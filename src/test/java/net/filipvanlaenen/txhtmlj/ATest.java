@@ -16,4 +16,12 @@ public class ATest {
         A a = new A("Foo").href("foo.html");
         assertEquals("<a href=\"foo.html\">Foo</a>", a.asString());
     }
+    /**
+     * Test verifying that a link with text and class is exported correctly.
+     */
+    @Test
+    void linkWithTextAndClassIsConvertedCorrectlyToString() {
+        A a = new A("Foo").clazz("foo").href("foo.html");
+        assertEquals("<a class=\"foo\" href=\"foo.html\">Foo</a>", a.asString());
+    }
 }
