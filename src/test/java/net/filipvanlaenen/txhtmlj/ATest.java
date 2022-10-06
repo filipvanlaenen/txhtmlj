@@ -16,6 +16,7 @@ public class ATest {
         A a = new A("Foo").href("foo.html");
         assertEquals("<a href=\"foo.html\">Foo</a>", a.asString());
     }
+
     /**
      * Test verifying that a link with text and class is exported correctly.
      */
