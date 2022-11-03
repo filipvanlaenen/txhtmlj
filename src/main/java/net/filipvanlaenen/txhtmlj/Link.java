@@ -34,4 +34,15 @@ public final class Link extends ElementWithAttributes implements MetadataContent
         addEnumerationAttribute("rel", linkTypeValue);
         return this;
     }
+
+    /**
+     * Sets the type.
+     *
+     * @param type The type.
+     * @return The instance called.
+     */
+    public Link type(final String type) {
+        addStringAttribute("type", type);
+        return this;
+    }
 }
