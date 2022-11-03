@@ -1,11 +1,11 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.AttributeValueEnumeration;
+import net.filipvanlaenen.bltxmlepj.KebabCaseAttributeValueEnumeration;
 
 /**
  * An enumeration for all the HTTP equiv values.
  */
-public enum HttpEquivValue implements AttributeValueEnumeration {
+public enum HttpEquivValue implements KebabCaseAttributeValueEnumeration {
     /**
      * The <code>content-value</code> value.
      */
@@ -34,13 +34,4 @@ public enum HttpEquivValue implements AttributeValueEnumeration {
      * The <code>x-ua-compatible</code> value.
      */
     X_UA_COMPATIBLE;
-
-    /**
-     * Converts the attribute value to a string.
-     *
-     * @return A string representing the value.
-     */
-    public String asString() {
-        return toString().toLowerCase().replaceAll("_", "-");
-    }
 }
