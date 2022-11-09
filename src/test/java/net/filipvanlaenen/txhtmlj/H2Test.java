@@ -16,4 +16,13 @@ public class H2Test {
         H2 h2 = new H2("Hello, world!");
         assertEquals("<h2>Hello, world!</h2>", h2.asString());
     }
+
+    /**
+     * Test verifying that a heading at level 2 with text and class is exported correctly.
+     */
+    @Test
+    public void h2WithTextAndClassShouldBeConvertedCorrectlyToString() {
+        H2 h2 = new H2("Hello, world!").clazz("foo");
+        assertEquals("<h2 class=\"foo\">Hello, world!</h2>", h2.asString());
+    }
 }

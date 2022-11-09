@@ -19,6 +19,17 @@ public final class H2 extends H {
     }
 
     /**
+     * Sets the class.
+     *
+     * @param clazz The class.
+     * @return The instance called.
+     */
+    public H2 clazz(final String clazz) {
+        addStringAttribute("class", clazz);
+        return this;
+    }
+
+    /**
      * Returns 2, the level of the heading.
      *
      * @return 2, the level of the heading.
