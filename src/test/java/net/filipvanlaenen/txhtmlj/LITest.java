@@ -9,6 +9,15 @@ import org.junit.jupiter.api.Test;
  */
 public class LITest {
     /**
+     * Test verifying that a simple list item with text is exported correctly.
+     */
+    @Test
+    void simpleLIWithTextIsConvertedCorrectlyToString() {
+        LI li = new LI("Hello, world!");
+        assertEquals("<li>Hello, world!</li>", li.asString());
+    }
+
+    /**
      * Test verifying that a simple list item with a span element is exported correctly.
      */
     @Test

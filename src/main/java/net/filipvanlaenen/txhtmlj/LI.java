@@ -1,13 +1,29 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
 
 /**
  * A class representing an li element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element">4.4.8 The li element</a>
  */
-public final class LI extends ElementWithElements {
+public final class LI extends ElementWithMixedContent {
+    /**
+     * Default constructor.
+     */
+    public LI() {
+        super();
+    }
+
+    /**
+     * Constructs an li element with a string as its content.
+     *
+     * @param content A string.
+     */
+    public LI(final String content) {
+        super(content);
+    }
+
     /**
      * Adds flow content to the list of elements.
      *
