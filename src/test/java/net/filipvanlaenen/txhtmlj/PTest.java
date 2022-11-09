@@ -16,4 +16,14 @@ public class PTest {
         P p = new P("Hello, world!");
         assertEquals("<p>Hello, world!</p>", p.asString());
     }
+
+    /**
+     * Test verifying that a simple paragraph with a span element is exported correctly.
+     */
+    @Test
+    void simplePWithSpanIsConvertedCorrectlyToString() {
+        P p = new P();
+        p.addElement(new Span("Foo"));
+        assertEquals("<p>\n  <span>Foo</span>\n</p>", p.asString());
+    }
 }
