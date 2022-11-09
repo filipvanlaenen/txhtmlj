@@ -110,6 +110,7 @@ projects.
 * Grouping content
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
   * [li](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
+  * [lu](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
 * Text-level semantics
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
