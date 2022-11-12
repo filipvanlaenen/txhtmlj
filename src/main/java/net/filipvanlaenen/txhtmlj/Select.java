@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndElements;
  * @see <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element">4.10.7 The select
  *      element</a>
  */
-public final class Select extends ElementWithAttributesAndElements implements FlowContent {
+public final class Select extends ElementWithAttributesAndElements implements FlowContent, PhrasingContent {
     /**
      * Adds an option to the list of elements.
      *

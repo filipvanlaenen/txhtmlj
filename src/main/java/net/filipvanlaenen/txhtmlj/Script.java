@@ -7,7 +7,8 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/scripting.html#the-script-element">4.12.1 The script element</a>
  */
-public final class Script extends ElementWithAttributesAndContent implements FlowContent, MetadataContent {
+public final class Script extends ElementWithAttributesAndContent
+        implements FlowContent, MetadataContent, PhrasingContent {
     /**
      * Constructor taking the content as its parameter.
      *

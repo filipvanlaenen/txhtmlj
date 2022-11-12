@@ -7,7 +7,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributes;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/semantics.html#the-link-element">4.2.4 The link element</a>
  */
-public final class Link extends ElementWithAttributes implements MetadataContent {
+public final class Link extends ElementWithAttributes implements MetadataContent, PhrasingContent {
     @Override
     public String getElementName() {
         return "link";

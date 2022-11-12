@@ -7,7 +7,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributes;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element">4.2.5 The meta element</a>
  */
-public final class Meta extends ElementWithAttributes implements MetadataContent {
+public final class Meta extends ElementWithAttributes implements MetadataContent, PhrasingContent {
     /**
      * Sets the content.
      *

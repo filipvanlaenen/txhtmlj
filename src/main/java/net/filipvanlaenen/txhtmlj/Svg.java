@@ -5,7 +5,7 @@ package net.filipvanlaenen.txhtmlj;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0">4.8.16 SVG</a>
  */
-public final class Svg implements FlowContent {
+public final class Svg implements FlowContent, PhrasingContent {
     /**
      * The wrapped svg element from TSVGJ.
      */

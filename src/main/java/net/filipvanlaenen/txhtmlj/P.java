@@ -25,12 +25,12 @@ public final class P extends ElementWithAttributesAndMixedContent implements Flo
     }
 
     /**
-     * Adds a span to the paragraph.
+     * Adds phrasing content to the paragraph.
      *
-     * @param span The span to be added.
+     * @param phrasingContent The phrasing content to be added.
      */
-    public void addElement(final Span span) {
-        super.addElement(span);
+    public void addElement(final PhrasingContent phrasingContent) {
+        super.addElement(phrasingContent);
     }
 
     @Override

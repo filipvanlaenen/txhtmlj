@@ -7,7 +7,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element">4.5.1 The a element</a>
  */
-public final class A extends ElementWithAttributesAndContent implements FlowContent {
+public final class A extends ElementWithAttributesAndContent implements FlowContent, PhrasingContent {
     /**
      * Constructs an a element with a string as its content.
      *
