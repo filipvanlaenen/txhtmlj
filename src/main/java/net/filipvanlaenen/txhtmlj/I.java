@@ -10,6 +10,13 @@ import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
  */
 public final class I extends ElementWithMixedContent implements FlowContent, PhrasingContent {
     /**
+     * Default constructor.
+     */
+    public I() {
+        super();
+    }
+
+    /**
      * Constructs an i element with a string as its content.
      *
      * @param content A string.
