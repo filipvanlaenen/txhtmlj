@@ -28,4 +28,14 @@ public class TableTest {
         table.addElement(new TBody());
         assertEquals("<table>\n  <thead/>\n  <tbody/>\n</table>", table.asString());
     }
+
+    /**
+     * Test verifying that a simple table with a body and class is exported correctly.
+     */
+    @Test
+    void simpleTableWithTBodyAndClassIsConvertedCorrectlyToString() {
+        Table table = new Table().clazz("foo");
+        table.addElement(new TBody());
+        assertEquals("<table class=\"foo\">\n  <tbody/>\n</table>", table.asString());
+    }
 }
