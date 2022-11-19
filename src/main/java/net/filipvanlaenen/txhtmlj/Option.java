@@ -18,6 +18,17 @@ public final class Option extends ElementWithAttributesAndContent {
         super(content);
     }
 
+    /**
+     * Sets the class.
+     *
+     * @param clazz The class.
+     * @return The instance called.
+     */
+    public Option clazz(final String clazz) {
+        addStringAttribute("class", clazz);
+        return this;
+    }
+
     @Override
     public String getElementName() {
         return "option";

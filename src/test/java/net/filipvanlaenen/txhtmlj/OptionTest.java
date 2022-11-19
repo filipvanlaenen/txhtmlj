@@ -16,4 +16,13 @@ public class OptionTest {
         Option option = new Option("Foo").value("foo");
         assertEquals("<option value=\"foo\">Foo</option>", option.asString());
     }
+
+    /**
+     * Test verifying that a simple option with a content, a value and a class is exported correctly.
+     */
+    @Test
+    public void shouldExportOptionWithContentValueAndClassCorrectlyToString() {
+        Option option = new Option("Foo").value("foo").clazz("bar");
+        assertEquals("<option class=\"bar\" value=\"foo\">Foo</option>", option.asString());
+    }
 }
