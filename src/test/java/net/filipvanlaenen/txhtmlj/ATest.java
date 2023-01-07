@@ -25,4 +25,14 @@ public class ATest {
         A a = new A("Foo").clazz("foo").href("foo.html");
         assertEquals("<a class=\"foo\" href=\"foo.html\">Foo</a>", a.asString());
     }
+
+    /**
+     * Test verifying that a simple link with a span element is exported correctly.
+     */
+    @Test
+    void simpleAWithSpanIsConvertedCorrectlyToString() {
+        A a = new A().href("foo.html");
+        a.addElement(new Span("Foo"));
+        assertEquals("<a href=\"foo.html\">\n  <span>Foo</span>\n</a>", a.asString());
+    }
 }
