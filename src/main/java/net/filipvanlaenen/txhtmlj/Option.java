@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
 
 /**
  * A class representing an option element.
@@ -8,7 +8,14 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element">4.10.10 The option
  *      element</a>
  */
-public final class Option extends ElementWithAttributesAndContent {
+public final class Option extends ElementWithAttributesAndMixedContent {
+    /**
+     * Default constructor.
+     */
+    public Option() {
+        super();
+    }
+
     /**
      * Constructs an a element with a string as its content.
      *
@@ -16,6 +23,15 @@ public final class Option extends ElementWithAttributesAndContent {
      */
     public Option(final String content) {
         super(content);
+    }
+
+    /**
+     * Adds span element to the option.
+     *
+     * @param span The span element to be added.
+     */
+    public void addElement(final Span span) {
+        super.addElement(span);
     }
 
     /**
