@@ -37,4 +37,15 @@ public final class P extends ElementWithAttributesAndMixedContent implements Flo
     public String getElementName() {
         return "p";
     }
+
+    /**
+     * Sets the ID.
+     *
+     * @param id The ID.
+     * @return The instance called.
+     */
+    public P id(final String id) {
+        addStringAttribute("id", id);
+        return this;
+    }
 }

@@ -26,4 +26,14 @@ public class PTest {
         p.addElement(new Span("Foo"));
         assertEquals("<p>\n  <span>Foo</span>\n</p>", p.asString());
     }
+
+    /**
+     * Test verifying that a paragraph with text and ID is exported correctly.
+     */
+    @Test
+    void paragraphWithTextAndIdIsConvertedCorrectlyToString() {
+        P p = new P("Foo").id("foo");
+        assertEquals("<p id=\"foo\">Foo</p>", p.asString());
+    }
+
 }
