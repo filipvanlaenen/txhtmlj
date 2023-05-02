@@ -109,6 +109,7 @@ projects.
   * [section](https://html.spec.whatwg.org/multipage/sections.html#the-section-element)
 * Grouping content
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
+  * [hr](https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element)
   * [li](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
   * [ul](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
