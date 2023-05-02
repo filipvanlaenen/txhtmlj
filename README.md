@@ -114,6 +114,7 @@ projects.
   * [ul](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 * Text-level semantics
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
+  * [br](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element)
   * [i](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element)
   * [span](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element)
   * [sup](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements)
