@@ -27,4 +27,15 @@ public class TRTest {
         tr.addElement(new TD("Hello, world!"));
         assertEquals("<tr>\n  <td>Hello, world!</td>\n</tr>", tr.asString());
     }
+
+    /**
+     * Test verifying that a table row with a custom data attribute and a table row with a table data cell is exported
+     * correctly.
+     */
+    @Test
+    void tableRowWithCustomDataAttributeIsConvertedCorrectlyToString() {
+        TR tr = new TR().data("foo", "bar");
+        tr.addElement(new TD("Hellow, world!"));
+        assertEquals("<tr data-foo=\"bar\">\n  <td>Hellow, world!</td>\n</tr>", tr.asString());
+    }
 }
