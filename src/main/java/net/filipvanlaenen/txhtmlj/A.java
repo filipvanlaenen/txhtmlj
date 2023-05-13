@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing an a element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element">4.5.1 The a element</a>
  */
-public final class A extends ElementWithMixedContent implements FlowContent, PhrasingContent {
+public final class A extends XhtmlElementWithMixedContent<A> implements FlowContent, PhrasingContent {
     /**
      * Default constructor.
      */
@@ -36,17 +36,6 @@ public final class A extends ElementWithMixedContent implements FlowContent, Phr
     @Override
     public String getElementName() {
         return "a";
-    }
-
-    /**
-     * Sets the class.
-     *
-     * @param clazz The class.
-     * @return The instance called.
-     */
-    public A clazz(final String clazz) {
-        addStringAttribute("class", clazz);
-        return this;
     }
 
     /**

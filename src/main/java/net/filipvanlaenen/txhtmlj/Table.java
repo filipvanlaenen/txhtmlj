@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
 
 /**
  * A class representing a table element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-table-element">4.9.1 The table element</a>
  */
-public final class Table extends ElementWithElements<Table> implements FlowContent {
+public final class Table extends XhtmlElementWithElements<Table> implements FlowContent {
     /**
      * Adds a table body to the table.
      *
@@ -24,17 +24,6 @@ public final class Table extends ElementWithElements<Table> implements FlowConte
      */
     public void addElement(final THead tHead) {
         super.addElement(tHead);
-    }
-
-    /**
-     * Sets the class.
-     *
-     * @param clazz The class.
-     * @return The instance called.
-     */
-    public Table clazz(final String clazz) {
-        addStringAttribute("class", clazz);
-        return this;
     }
 
     @Override

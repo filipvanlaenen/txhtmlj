@@ -1,22 +1,13 @@
 package net.filipvanlaenen.txhtmlj.internal;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithElements;
 
 /**
- * Abstract superclass for XHTML elements with content.
+ * Abstract superclass for XHTML elements with elements.
  *
  * @param <E> The subclass.
  */
-public abstract class XhtmlElementWithContent<E extends XhtmlElementWithContent<E>> extends ElementWithContent<E> {
-    /**
-     * Constructor taking the content as its parameter.
-     *
-     * @param content The content.
-     */
-    protected XhtmlElementWithContent(final String content) {
-        super(content);
-    }
-
+public abstract class XhtmlElementWithElements<E extends XhtmlElementWithElements<E>> extends ElementWithElements<E> {
     /**
      * Sets the class.
      *

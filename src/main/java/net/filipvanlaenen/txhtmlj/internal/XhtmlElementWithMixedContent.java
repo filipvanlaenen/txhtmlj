@@ -1,19 +1,27 @@
 package net.filipvanlaenen.txhtmlj.internal;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
 
 /**
- * Abstract superclass for XHTML elements with content.
+ * Abstract superclass for XHTML elements with mixed content.
  *
  * @param <E> The subclass.
  */
-public abstract class XhtmlElementWithContent<E extends XhtmlElementWithContent<E>> extends ElementWithContent<E> {
+public abstract class XhtmlElementWithMixedContent<E extends XhtmlElementWithMixedContent<E>>
+        extends ElementWithMixedContent<E> {
     /**
-     * Constructor taking the content as its parameter.
-     *
-     * @param content The content.
+     * Default constructor.
      */
-    protected XhtmlElementWithContent(final String content) {
+    public XhtmlElementWithMixedContent() {
+        super();
+    }
+
+    /**
+     * Constructs an a element with a string as its content.
+     *
+     * @param content A string.
+     */
+    public XhtmlElementWithMixedContent(final String content) {
         super(content);
     }
 

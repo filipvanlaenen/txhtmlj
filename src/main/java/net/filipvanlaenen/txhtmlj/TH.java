@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing a table data header element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-th-element">4.9.10 The th element</a>
  */
-public final class TH extends ElementWithMixedContent implements XhtmlElement {
+public final class TH extends XhtmlElementWithMixedContent<TH> implements XhtmlElement {
     /**
      * Default constructor.
      */
@@ -31,17 +31,6 @@ public final class TH extends ElementWithMixedContent implements XhtmlElement {
      */
     public void addElement(final FlowContent flowContent) {
         super.addElement(flowContent);
-    }
-
-    /**
-     * Sets the class.
-     *
-     * @param clazz The class.
-     * @return The instance called.
-     */
-    public TH clazz(final String clazz) {
-        addStringAttribute("class", clazz);
-        return this;
     }
 
     @Override

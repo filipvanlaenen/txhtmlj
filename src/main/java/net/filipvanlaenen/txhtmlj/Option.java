@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing an option element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element">4.10.10 The option
  *      element</a>
  */
-public final class Option extends ElementWithMixedContent {
+public final class Option extends XhtmlElementWithMixedContent<Option> {
     /**
      * Default constructor.
      */
@@ -32,17 +32,6 @@ public final class Option extends ElementWithMixedContent {
      */
     public void addElement(final Span span) {
         super.addElement(span);
-    }
-
-    /**
-     * Sets the class.
-     *
-     * @param clazz The class.
-     * @return The instance called.
-     */
-    public Option clazz(final String clazz) {
-        addStringAttribute("class", clazz);
-        return this;
     }
 
     @Override

@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
 
 /**
  * A class representing a body.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/sections.html#the-body-element">4.3.1 The body element</a>
  */
-public final class Body extends ElementWithElements implements XhtmlElement {
+public final class Body extends XhtmlElementWithElements<Body> implements XhtmlElement {
     /**
      * Adds flow content to the list of elements.
      *
@@ -20,16 +20,5 @@ public final class Body extends ElementWithElements implements XhtmlElement {
     @Override
     public String getElementName() {
         return "body";
-    }
-
-    /**
-     * Sets the onload event.
-     *
-     * @param onload The onload event.
-     * @return The instance called.
-     */
-    public Body onload(final String onload) {
-        addStringAttribute("onload", onload);
-        return this;
     }
 }
