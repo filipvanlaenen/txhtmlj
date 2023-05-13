@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing an li element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element">4.4.8 The li element</a>
  */
-public final class LI extends ElementWithMixedContent {
+public final class LI extends XhtmlElementWithMixedContent<LI> {
     /**
      * Default constructor.
      */

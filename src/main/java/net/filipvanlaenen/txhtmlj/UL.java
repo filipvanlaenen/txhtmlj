@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
 
 /**
  * A class representing an ul element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element">4.4.6 The ul element</a>
  */
-public final class UL extends ElementWithElements implements FlowContent {
+public final class UL extends XhtmlElementWithElements<UL> implements FlowContent {
     /**
      * Adds an li element to the list of elements.
      *

@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
 
 /**
  * A class representing a head.
@@ -9,7 +9,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithElements;
  *      "https://html.spec.whatwg.org/multipage/semantics.html#the-head-element">4.2.1
  *      The head element</a>
  */
-public final class Head extends ElementWithElements implements XhtmlElement {
+public final class Head extends XhtmlElementWithElements<Head> implements XhtmlElement {
     /**
      * Adds metadata content to the list of elements.
      *

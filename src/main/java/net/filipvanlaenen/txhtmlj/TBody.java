@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
 
 /**
  * A class representing a table body element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element">4.9.5 The tbody element</a>
  */
-public final class TBody extends ElementWithElements implements XhtmlElement {
+public final class TBody extends XhtmlElementWithElements<TBody> implements XhtmlElement {
     /**
      * Adds a table row to the table body.
      *

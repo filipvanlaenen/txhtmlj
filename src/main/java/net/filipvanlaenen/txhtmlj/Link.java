@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.EmptyElement;
+import net.filipvanlaenen.txhtmlj.internal.EmptyXhtmlElement;
 
 /**
  * A class representing a link element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/semantics.html#the-link-element">4.2.4 The link element</a>
  */
-public final class Link extends EmptyElement implements MetadataContent, PhrasingContent {
+public final class Link extends EmptyXhtmlElement<Link> implements MetadataContent, PhrasingContent {
     @Override
     public String getElementName() {
         return "link";

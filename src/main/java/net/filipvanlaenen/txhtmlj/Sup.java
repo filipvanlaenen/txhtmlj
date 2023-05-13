@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing a sup element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements">4.5.19 The
  *      sub and sup elements</a>
  */
-public final class Sup extends ElementWithMixedContent implements FlowContent, PhrasingContent {
+public final class Sup extends XhtmlElementWithMixedContent<Sup> implements FlowContent, PhrasingContent {
     /**
      * Default constructor.
      */

@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithElements;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
 
 /**
  * A class representing a footer element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/sections.html#the-footer-element">4.3.9 The footer element</a>
  */
-public final class Footer extends ElementWithElements implements FlowContent {
+public final class Footer extends XhtmlElementWithElements<Footer> implements FlowContent {
     /**
      * Adds flow content to the list of elements.
      *

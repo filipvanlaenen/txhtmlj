@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing a paragraph.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element">4.4.1 The p element</a>
  */
-public final class P extends ElementWithMixedContent<P> implements FlowContent {
+public final class P extends XhtmlElementWithMixedContent<P> implements FlowContent {
     /**
      * Default constructor.
      */

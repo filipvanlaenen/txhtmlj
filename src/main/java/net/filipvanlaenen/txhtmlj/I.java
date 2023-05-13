@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithMixedContent;
 
 /**
  * A class representing an i element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element">4.5.20 The i
  *      element</a>
  */
-public final class I extends ElementWithMixedContent implements FlowContent, PhrasingContent {
+public final class I extends XhtmlElementWithMixedContent<I> implements FlowContent, PhrasingContent {
     /**
      * Default constructor.
      */
