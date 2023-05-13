@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndElements;
+import net.filipvanlaenen.bltxmlepj.ElementWithElements;
 
 /**
  * A class representing a table element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-table-element">4.9.1 The table element</a>
  */
-public final class Table extends ElementWithAttributesAndElements implements FlowContent {
+public final class Table extends ElementWithElements implements FlowContent {
     /**
      * Adds a table body to the table.
      *

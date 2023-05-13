@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributes;
+import net.filipvanlaenen.bltxmlepj.EmptyElement;
 
 /**
  * A class representing a meta element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element">4.2.5 The meta element</a>
  */
-public final class Meta extends ElementWithAttributes implements MetadataContent, PhrasingContent {
+public final class Meta extends EmptyElement implements MetadataContent, PhrasingContent {
     /**
      * Sets the content.
      *

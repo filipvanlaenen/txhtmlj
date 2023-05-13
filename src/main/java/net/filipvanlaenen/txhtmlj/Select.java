@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndElements;
+import net.filipvanlaenen.bltxmlepj.ElementWithElements;
 
 /**
  * A class representing a select element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndElements;
  * @see <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element">4.10.7 The select
  *      element</a>
  */
-public final class Select extends ElementWithAttributesAndElements implements FlowContent, PhrasingContent {
+public final class Select extends ElementWithElements implements FlowContent, PhrasingContent {
     /**
      * Adds an option to the list of elements.
      *

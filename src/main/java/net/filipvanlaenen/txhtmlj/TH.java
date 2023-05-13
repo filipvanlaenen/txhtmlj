@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
 
 /**
  * A class representing a table data header element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-th-element">4.9.10 The th element</a>
  */
-public final class TH extends ElementWithAttributesAndMixedContent implements XhtmlElement {
+public final class TH extends ElementWithMixedContent implements XhtmlElement {
     /**
      * Default constructor.
      */

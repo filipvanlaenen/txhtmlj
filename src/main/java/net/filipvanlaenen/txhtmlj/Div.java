@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
 
 /**
  * A class representing a div element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element">4.4.15 The div
  *      element</a>
  */
-public final class Div extends ElementWithAttributesAndMixedContent implements FlowContent {
+public final class Div extends ElementWithMixedContent implements FlowContent {
     /**
      * Default constructor.
      */

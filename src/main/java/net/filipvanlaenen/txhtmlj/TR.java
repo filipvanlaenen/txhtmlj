@@ -1,13 +1,13 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndElements;
+import net.filipvanlaenen.bltxmlepj.ElementWithElements;
 
 /**
  * A class representing a table row element.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-tr-element">4.9.8 The tr element</a>
  */
-public final class TR extends ElementWithAttributesAndElements implements XhtmlElement {
+public final class TR extends ElementWithElements implements XhtmlElement {
     /**
      * Adds a table data cell to the table row.
      *

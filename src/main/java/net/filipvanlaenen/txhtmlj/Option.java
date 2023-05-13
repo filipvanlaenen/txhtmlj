@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
+import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
 
 /**
  * A class representing an option element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithAttributesAndMixedContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element">4.10.10 The option
  *      element</a>
  */
-public final class Option extends ElementWithAttributesAndMixedContent {
+public final class Option extends ElementWithMixedContent {
     /**
      * Default constructor.
      */
