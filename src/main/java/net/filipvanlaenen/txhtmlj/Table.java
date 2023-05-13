@@ -7,7 +7,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithElements;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/tables.html#the-table-element">4.9.1 The table element</a>
  */
-public final class Table extends ElementWithElements implements FlowContent {
+public final class Table extends ElementWithElements<Table> implements FlowContent {
     /**
      * Adds a table body to the table.
      *
