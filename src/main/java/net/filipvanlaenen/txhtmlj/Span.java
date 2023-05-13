@@ -1,6 +1,6 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithContent;
 
 /**
  * A class representing a span element.
@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element">4.5.26 The span
  *      element</a>
  */
-public final class Span extends ElementWithContent implements FlowContent, PhrasingContent {
+public final class Span extends XhtmlElementWithContent<Span> implements FlowContent, PhrasingContent {
     /**
      * Constructs an a element with a string as its content.
      *
@@ -18,16 +18,6 @@ public final class Span extends ElementWithContent implements FlowContent, Phras
         super(content);
     }
 
-    /**
-     * Sets the class.
-     *
-     * @param clazz The class.
-     * @return The instance called.
-     */
-    public Span clazz(final String clazz) {
-        addStringAttribute("class", clazz);
-        return this;
-    }
 
     @Override
     public String getElementName() {

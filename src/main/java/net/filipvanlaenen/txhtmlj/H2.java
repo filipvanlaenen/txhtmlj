@@ -8,7 +8,7 @@ import net.filipvanlaenen.txhtmlj.internal.H;
  * @see <a href="https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">4.3.6 The
  *      h1, h2, h3, h4, h5, and h6 elements</a>
  */
-public final class H2 extends H {
+public final class H2 extends H<H2> {
     /**
      * Constructs a h2 element with a string as its content.
      *
@@ -16,17 +16,6 @@ public final class H2 extends H {
      */
     public H2(final String content) {
         super(content);
-    }
-
-    /**
-     * Sets the class.
-     *
-     * @param clazz The class.
-     * @return The instance called.
-     */
-    public H2 clazz(final String clazz) {
-        addStringAttribute("class", clazz);
-        return this;
     }
 
     /**

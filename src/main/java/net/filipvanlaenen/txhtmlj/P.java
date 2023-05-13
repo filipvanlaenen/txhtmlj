@@ -7,7 +7,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithMixedContent;
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element">4.4.1 The p element</a>
  */
-public final class P extends ElementWithMixedContent implements FlowContent {
+public final class P extends ElementWithMixedContent<P> implements FlowContent {
     /**
      * Default constructor.
      */
@@ -36,16 +36,5 @@ public final class P extends ElementWithMixedContent implements FlowContent {
     @Override
     public String getElementName() {
         return "p";
-    }
-
-    /**
-     * Sets the ID.
-     *
-     * @param id The ID.
-     * @return The instance called.
-     */
-    public P id(final String id) {
-        addStringAttribute("id", id);
-        return this;
     }
 }

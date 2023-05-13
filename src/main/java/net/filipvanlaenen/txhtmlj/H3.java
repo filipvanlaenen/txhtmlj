@@ -8,7 +8,7 @@ import net.filipvanlaenen.txhtmlj.internal.H;
  * @see <a href="https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">4.3.6 The
  *      h1, h2, h3, h4, h5, and h6 elements</a>
  */
-public final class H3 extends H {
+public final class H3 extends H<H3> {
     /**
      * The magic number three.
      */

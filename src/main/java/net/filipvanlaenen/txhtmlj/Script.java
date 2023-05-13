@@ -1,13 +1,14 @@
 package net.filipvanlaenen.txhtmlj;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithContent;
+import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithContent;
 
 /**
  * A class representing a script.
  *
  * @see <a href="https://html.spec.whatwg.org/multipage/scripting.html#the-script-element">4.12.1 The script element</a>
  */
-public final class Script extends ElementWithContent
+public final class Script
+        extends XhtmlElementWithContent<Script>
         implements FlowContent, MetadataContent, PhrasingContent {
     /**
      * Constructor taking the content as its parameter.

@@ -1,6 +1,5 @@
 package net.filipvanlaenen.txhtmlj.internal;
 
-import net.filipvanlaenen.bltxmlepj.ElementWithContent;
 import net.filipvanlaenen.txhtmlj.FlowContent;
 
 /**
@@ -9,7 +8,8 @@ import net.filipvanlaenen.txhtmlj.FlowContent;
  * @see <a href="https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements">4.3.6 The
  *      h1, h2, h3, h4, h5, and h6 elements</a>
  */
-public abstract class H extends ElementWithContent implements FlowContent {
+public abstract class H<E extends XhtmlElementWithContent<E>> extends XhtmlElementWithContent<E>
+        implements FlowContent {
     /**
      * Constructs a heading element with a string as its content.
      *

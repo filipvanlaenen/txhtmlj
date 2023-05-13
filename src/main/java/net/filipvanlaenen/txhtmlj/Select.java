@@ -8,7 +8,7 @@ import net.filipvanlaenen.bltxmlepj.ElementWithElements;
  * @see <a href="https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element">4.10.7 The select
  *      element</a>
  */
-public final class Select extends ElementWithElements implements FlowContent, PhrasingContent {
+public final class Select extends ElementWithElements<Select> implements FlowContent, PhrasingContent {
     /**
      * Adds an option to the list of elements.
      *
@@ -21,17 +21,6 @@ public final class Select extends ElementWithElements implements FlowContent, Ph
     @Override
     public String getElementName() {
         return "select";
-    }
-
-    /**
-     * Sets the ID.
-     *
-     * @param id The ID.
-     * @return The instance called.
-     */
-    public Select id(final String id) {
-        addStringAttribute("id", id);
-        return this;
     }
 
     /**
