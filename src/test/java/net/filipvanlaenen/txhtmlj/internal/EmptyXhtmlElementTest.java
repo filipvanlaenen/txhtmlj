@@ -62,4 +62,31 @@ public class EmptyXhtmlElementTest {
         MyEmptyXhtmlElement e = new MyEmptyXhtmlElement().onload("qux()");
         assertEquals("<foo onload=\"qux()\"/>", e.asString());
     }
+
+    /**
+     * Test verifying that onmousemove is exported correctly.
+     */
+    @Test
+    void onmousemoveShouldBeConvertedCorrectlyToString() {
+        MyEmptyXhtmlElement e = new MyEmptyXhtmlElement().onmousemove("bar()");
+        assertEquals("<foo onmousemove=\"bar()\"/>", e.asString());
+    }
+
+    /**
+     * Test verifying that onmouseout is exported correctly.
+     */
+    @Test
+    void onmouseoutShouldBeConvertedCorrectlyToString() {
+        MyEmptyXhtmlElement e = new MyEmptyXhtmlElement().onmouseout("bar()");
+        assertEquals("<foo onmouseout=\"bar()\"/>", e.asString());
+    }
+
+    /**
+     * Test verifying that onmouseover is exported correctly.
+     */
+    @Test
+    void onmouseoverShouldBeConvertedCorrectlyToString() {
+        MyEmptyXhtmlElement e = new MyEmptyXhtmlElement().onmouseover("bar()");
+        assertEquals("<foo onmouseover=\"bar()\"/>", e.asString());
+    }
 }

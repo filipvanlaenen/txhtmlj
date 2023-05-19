@@ -71,4 +71,31 @@ public class XhtmlElementWithMixedContentTest {
         MyXhtmlElementWithMixedContent e = new MyXhtmlElementWithMixedContent("Bar").onload("qux()");
         assertEquals("<foo onload=\"qux()\">Bar</foo>", e.asString());
     }
+
+    /**
+     * Test verifying that onmousemove is exported correctly.
+     */
+    @Test
+    void onmousemoveShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithMixedContent e = new MyXhtmlElementWithMixedContent("Bar").onmousemove("bar()");
+        assertEquals("<foo onmousemove=\"bar()\">Bar</foo>", e.asString());
+    }
+
+    /**
+     * Test verifying that onmouseout is exported correctly.
+     */
+    @Test
+    void onmouseoutShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithMixedContent e = new MyXhtmlElementWithMixedContent("Bar").onmouseout("bar()");
+        assertEquals("<foo onmouseout=\"bar()\">Bar</foo>", e.asString());
+    }
+
+    /**
+     * Test verifying that onmouseover is exported correctly.
+     */
+    @Test
+    void onmouseoverShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithMixedContent e = new MyXhtmlElementWithMixedContent("Bar").onmouseover("bar()");
+        assertEquals("<foo onmouseover=\"bar()\">Bar</foo>", e.asString());
+    }
 }

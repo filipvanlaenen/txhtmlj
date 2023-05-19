@@ -62,4 +62,31 @@ public class XhtmlElementWithElementsTest {
         MyXhtmlElementWithElements e = new MyXhtmlElementWithElements().onload("qux()");
         assertEquals("<foo onload=\"qux()\"/>", e.asString());
     }
+
+    /**
+     * Test verifying that onmousemove is exported correctly.
+     */
+    @Test
+    void onmousemoveShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithElements e = new MyXhtmlElementWithElements().onmousemove("bar()");
+        assertEquals("<foo onmousemove=\"bar()\"/>", e.asString());
+    }
+
+    /**
+     * Test verifying that onmouseout is exported correctly.
+     */
+    @Test
+    void onmouseoutShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithElements e = new MyXhtmlElementWithElements().onmouseout("bar()");
+        assertEquals("<foo onmouseout=\"bar()\"/>", e.asString());
+    }
+
+    /**
+     * Test verifying that onmouseover is exported correctly.
+     */
+    @Test
+    void onmouseoverShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithElements e = new MyXhtmlElementWithElements().onmouseover("bar()");
+        assertEquals("<foo onmouseover=\"bar()\"/>", e.asString());
+    }
 }

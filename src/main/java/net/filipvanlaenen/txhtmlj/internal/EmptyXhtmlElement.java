@@ -63,4 +63,37 @@ public abstract class EmptyXhtmlElement<E extends EmptyXhtmlElement<E>> extends 
         addStringAttribute("onload", onload);
         return (E) this;
     }
+
+    /**
+     * Sets the onmousemove event.
+     *
+     * @param onmousemove The onmousemove event.
+     * @return The instance called.
+     */
+    public E onmousemove(final String onmousemove) {
+        addStringAttribute("onmousemove", onmousemove);
+        return (E) this;
+    }
+
+    /**
+     * Sets the onmouseout event.
+     *
+     * @param onmouseout The onmouseout event.
+     * @return The instance called.
+     */
+    public E onmouseout(final String onmouseout) {
+        addStringAttribute("onmouseout", onmouseout);
+        return (E) this;
+    }
+
+    /**
+     * Sets the onmouseover event.
+     *
+     * @param onmouseover The onmouseover event.
+     * @return The instance called.
+     */
+    public E onmouseover(final String onmouseover) {
+        addStringAttribute("onmouseover", onmouseover);
+        return (E) this;
+    }
 }
