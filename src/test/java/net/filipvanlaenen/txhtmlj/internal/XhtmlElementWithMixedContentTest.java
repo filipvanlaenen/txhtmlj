@@ -98,4 +98,13 @@ public class XhtmlElementWithMixedContentTest {
         MyXhtmlElementWithMixedContent e = new MyXhtmlElementWithMixedContent("Bar").onmouseover("bar()");
         assertEquals("<foo onmouseover=\"bar()\">Bar</foo>", e.asString());
     }
+
+    /**
+     * Test verifying that style is exported correctly.
+     */
+    @Test
+    void styleShouldBeConvertedCorrectlyToString() {
+        MyXhtmlElementWithMixedContent e = new MyXhtmlElementWithMixedContent("Bar").style("display: none;");
+        assertEquals("<foo style=\"display: none;\">Bar</foo>", e.asString());
+    }
 }

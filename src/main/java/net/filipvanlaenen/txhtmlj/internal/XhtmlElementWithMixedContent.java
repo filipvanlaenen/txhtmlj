@@ -113,4 +113,15 @@ public abstract class XhtmlElementWithMixedContent<E extends XhtmlElementWithMix
         addStringAttribute("onmouseover", onmouseover);
         return (E) this;
     }
+
+    /**
+     * Sets the style.
+     *
+     * @param style The style.
+     * @return The instance called.
+     */
+    public E style(final String style) {
+        addStringAttribute("style", style);
+        return (E) this;
+    }
 }
