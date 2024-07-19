@@ -115,10 +115,13 @@ projects.
   * [ul](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 * Text-level semantics
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
+  * [b](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element)
   * [br](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element)
+  * [em](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element)
   * [i](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element)
   * [span](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element)
   * [sup](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements)
+  * [u](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element)
 * Embedded content
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
 * Tabular data
