@@ -108,11 +108,13 @@ projects.
   * [header](https://html.spec.whatwg.org/multipage/sections.html#the-header-element)
   * [section](https://html.spec.whatwg.org/multipage/sections.html#the-section-element)
 * Grouping content
+  * [blockquote](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element)
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
   * [hr](https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element)
   * [li](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
   * [ol](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
+  * [pre](https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element)
   * [ul](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 * Text-level semantics
   * [a](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element)
