@@ -123,6 +123,7 @@ projects.
   * [small](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element)
   * [span](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element)
   * [strong](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element)
+  * [sub](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements)
   * [sup](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements)
   * [u](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element)
 * Embedded content
