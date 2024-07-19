@@ -119,7 +119,10 @@ projects.
   * [br](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element)
   * [em](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element)
   * [i](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element)
+  * [s](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element)
+  * [small](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element)
   * [span](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element)
+  * [strong](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element)
   * [sup](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements)
   * [u](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element)
 * Embedded content
