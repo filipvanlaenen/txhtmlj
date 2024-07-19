@@ -112,6 +112,7 @@ projects.
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
   * [hr](https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element)
   * [li](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
+  * [menu](https://html.spec.whatwg.org/multipage/grouping-content.html#the-menu-element)
   * [ol](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element)
   * [p](https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element)
   * [pre](https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element)
