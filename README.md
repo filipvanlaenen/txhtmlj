@@ -155,6 +155,9 @@ projects.
   * [thead](https://html.spec.whatwg.org/multipage/tables.html#the-thead-element)
   * [tr](https://html.spec.whatwg.org/multipage/tables.html#the-tr-element)
 * Forms
+  * [form](https://html.spec.whatwg.org/multipage/forms.html#the-form-element)
+  * [input](https://html.spec.whatwg.org/multipage/input.html#the-input-element)
+  * [label](https://html.spec.whatwg.org/multipage/forms.html#the-label-element)
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
   * [select](https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element)
 * Scripting
