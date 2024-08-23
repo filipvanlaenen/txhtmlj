@@ -141,6 +141,7 @@ projects.
   * [u](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element)
   * [var](https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element)
 * Embedded content
+  * [img](https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element)
   * [svg](https://html.spec.whatwg.org/multipage/embedded-content-other.html#svg-0)
 * Tabular data
   * [table](https://html.spec.whatwg.org/multipage/tables.html#the-table-element)
