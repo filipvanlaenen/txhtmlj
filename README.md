@@ -114,7 +114,10 @@ projects.
   * [section](https://html.spec.whatwg.org/multipage/sections.html#the-section-element)
 * Grouping content
   * [blockquote](https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element)
+  * [dd](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element)
   * [div](https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element)
+  * [dl](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element)
+  * [dt](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dt-element)
   * [hr](https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element)
   * [li](https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element)
   * [menu](https://html.spec.whatwg.org/multipage/grouping-content.html#the-menu-element)
