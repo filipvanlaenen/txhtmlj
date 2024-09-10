@@ -19,14 +19,15 @@ public class TableTest {
     }
 
     /**
-     * Test verifying that a table with a head and a body is exported correctly.
+     * Test verifying that a table with a caption, a head and a body is exported correctly.
      */
     @Test
-    void tableWithTHeadAndTBodyIsConvertedCorrectlyToString() {
+    void tableWithCaptionTHeadAndTBodyIsConvertedCorrectlyToString() {
         Table table = new Table();
+        table.addElement(new Caption());
         table.addElement(new THead());
         table.addElement(new TBody());
-        assertEquals("<table>\n  <thead/>\n  <tbody/>\n</table>", table.asString());
+        assertEquals("<table>\n  <caption/>\n  <thead/>\n  <tbody/>\n</table>", table.asString());
     }
 
     /**

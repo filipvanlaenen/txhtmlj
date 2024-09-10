@@ -9,6 +9,15 @@ import net.filipvanlaenen.txhtmlj.internal.XhtmlElementWithElements;
  */
 public final class Table extends XhtmlElementWithElements<Table> implements FlowContent {
     /**
+     * Adds a caption to the table.
+     *
+     * @param caption The caption to be added.
+     */
+    public void addElement(final Caption caption) {
+        super.addElement(caption);
+    }
+
+    /**
      * Adds a table body to the table.
      *
      * @param tBody The table body to be added.
