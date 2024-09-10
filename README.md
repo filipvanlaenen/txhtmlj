@@ -162,6 +162,7 @@ projects.
   * [label](https://html.spec.whatwg.org/multipage/forms.html#the-label-element)
   * [option](https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element)
   * [select](https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element)
+  * [textarea](https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element)
 * Scripting
   * [script](https://html.spec.whatwg.org/multipage/scripting.html#the-script-element)
 
