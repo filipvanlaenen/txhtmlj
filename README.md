@@ -57,20 +57,7 @@ following Java code:
 
 ## Getting Started
 
-First of all, you need to obtain a copy of the source code, complile it and
-install it locally. Run the following commands to do this:
-
-```
-git clone git@github.com:filipvanlaenen/txhtmlj.git
-cd txhtmlj
-mvn clean install
-```
-
-*Note: If requested by enough people, this library can be deployed to a central
-Maven repository ([Issue #1](https://github.com/filipvanlaenen/txhtmlj/issues/1)).*
-
-If everything works well, you'll be able to use the TXHTMLJ library in another
-Java project by adding the following dependency in the project's POM file:
+You can use the TXHTMLJ library in another Java project by adding the following dependency to the project's POM file:
 
 ```xml
   <dependency>
@@ -80,10 +67,35 @@ Java project by adding the following dependency in the project's POM file:
   </dependency>
 ```
 
+Since the project hasn't been deployed to a central Maven repository yet, you either have to add my private Maven
+repository too, or download the code, and compile and install it locally. You can add my private Maven repository adding
+the following to your POM file:
+
+```xml
+  <repositories>
+    <repository>
+      <id>fvl-mvn-repo</id>
+      <name>fvl-mvn-repo</name>
+      <url>https://storage.googleapis.com/fvl-mvn-repo/repo/</url>
+    </repository>
+  </repositories>
+```
+
+*Note: If requested by enough people, this library can be deployed to a central Maven repository
+([Issue #1](https://github.com/filipvanlaenen/txhtmlj/issues/1)).*
+
+If you rather obtain a copy of the source code, compile it and install it locally, you can run the following commands to
+do this:
+
+```
+git clone git@github.com:filipvanlaenen/txhtmlj.git
+cd txhtmlj
+mvn clean install
+```
+
 Be sure to update to the appropriate version number.
 
-Once the dependency is included, you can start to create XHTML documents as
-shown in the example above.
+Once the dependency is included, you can start to create XHTML documents as shown in the example above.
 
 ## Elements Implemented
 
